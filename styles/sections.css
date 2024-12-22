@@ -23,6 +23,10 @@
         bottom: 0;
         padding: 24px;
 
+        &:has(.text-lg){
+            padding: 10px;
+        }
+
         h2{
             margin-top: 10px;
         }
