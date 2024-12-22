@@ -24,7 +24,7 @@
 body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
-    font-family: var(--font-family);
+    font: var(--text);
 }
 
 a{
@@ -37,17 +37,19 @@ a:hover{
 h1, h2, h3{
     font: inherit;
 }
+
+img{
+    max-width: 100%;
+}
+
 .container{
     max-width: 1280px;
     padding-inline: 32px;
     margin-inline: auto;
 }
 
-/*Utility-first uma classe que faz apenas uma coisa */
-.grid{
-    display: grid;
+main{
+    margin-top: 40px;
 }
-.grid-flow-col{
-    grid-auto-flow: column;
-}
+
 
